@@ -9,7 +9,7 @@ return(
         <hr />
         <Container fluid>
             <Row className="justify-content-center">
-                <span class="text-muted">© 2020 Copyright: <a href="http://roopz.club/"> roopz.club</a></span>
+                <span className="text-muted">© 2020 Copyright: <a href="http://roopz.club/"> roopz.club</a></span>
             </Row>            
         </Container>
     </footer>

@@ -1,5 +1,6 @@
 {
   "name": "react-resume",
+  "homepage": "http://react.roopz.club",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

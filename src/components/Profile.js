@@ -17,7 +17,7 @@ function Profile()
                 <h3 className="tex-center text-dark"><b>Roopan Valiya Veetil</b></h3>
             </Row>
             <Row className='justify-content-center'> 
-                <h6 class="text-center text-muted">Fullstack Developer</h6>
+                <h6 className="text-center text-muted">Fullstack Developer</h6>
             </Row>
             <Row className="justify-content-center">
                 <ListGroup className="contact-links text-center text-dark" variant="flush">
@@ -37,8 +37,8 @@ function Profile()
                     <Badge variant="success">Svelte</Badge>{' '}    
                 </h6>
             </Row>
-            <div class="row justify-content-center">
-                <ul class="list-unstyled contact-links text-center text-dark">                    
+            <div className="row justify-content-center">
+                <ul className="list-unstyled contact-links text-center text-dark">                    
                     <a href="https://github.com/yiioverflow"> <FontAwesomeIcon className="h1 text-dark text-decoration-none" icon={['fab', 'github']} /></a>
                     <a href="https://wa.me/919496243415"> <FontAwesomeIcon className="h1 text-success text-decoration-none" icon={['fab', 'whatsapp']} /></a>
                     <a href="skype:roopan.valiya.veetil?chat"> <FontAwesomeIcon className="h1 text-info text-decoration-none" icon={['fab', 'skype']} /></a>
@@ -50,12 +50,12 @@ function Profile()
                 <FontAwesomeIcon icon="cog" spin />
             </Row>   
             <Row className="justify-content-center">
-                <p class="text-muted">Learning something new...</p>
+                <p className="text-muted">Learning something new...</p>
             </Row>    
             <Row className="justify-content-center">
-            <p class="text-center">I built this site with 
-                <a class="fa fa-github text-primary text-decoration-none" href="https://roopz.club"> Html5</a> and 
-                <a class="fa fa-github text-primary text-decoration-none" href="https://react.roopz.club"> React</a> components and Bootstrap. The full source code can be found in my <a class="fa fa-github text-primary" href="https://github.com/yiioverflow"> Github</a> repo.</p>
+                <p className="text-center">I built this site with 
+                <a className="fa fa-github text-primary text-decoration-none" href="http://roopz.club"> Html-5</a> and 
+                <a className="fa fa-github text-primary text-decoration-none" href="http://react.roopz.club"> React</a> components and Bootstrap. The full source code can be found in my <a className="fa fa-github text-primary" href="https://github.com/yiioverflow/react-free-bootstrap-resume-profile-template"> Github</a> repo.</p>
             </Row> 
         </Col>
     );

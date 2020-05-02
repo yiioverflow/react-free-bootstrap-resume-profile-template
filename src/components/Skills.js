@@ -1,6 +1,5 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Badge from 'react-bootstrap/Badge';
 
@@ -9,7 +8,7 @@ function Skills()
     return(
         <div>
             <Row className="border-bottom border-muted">                  
-                <h5 class="text-uppercase"><FontAwesomeIcon icon="code" /><b> Skills</b></h5>
+                <h5 className="text-uppercase"><FontAwesomeIcon icon="code" /><b> Skills</b></h5>
             </Row>
 
             <Row className="pt-3 pb-3 text-left"> 
@@ -35,12 +34,14 @@ function Skills()
             </Row>
 
             <Row className="border-bottom border-muted">                  
-                <h4 class="text-uppercase"><FontAwesomeIcon icon={['fab', 'tick']} /> <b>Education</b></h4>
+                <h4 className="text-uppercase"><FontAwesomeIcon icon="align-justify" className="small" /><b> Education</b></h4>
             </Row>
-            <Row class="pt-3"> 
-                <h4 class="text-justify pr-3"><FontAwesomeIcon icon="cog" className="small" /> Batchelor of Technology <small> Computer Science and Engineering</small></h4>             
-                <h4 class="text-justify pr-3"><FontAwesomeIcon icon="cog" className="small"/> Diploma<small> Computer Science and Engineering</small></h4>   
-            </Row>              
+                <Row className="pt-2">
+                    <h5 className="text-justify pr-3"><FontAwesomeIcon icon="cog"/><strong className="text-dark"> Batchelor of Technology</strong><small className="text-muted small"> Computer Science and Engineering</small></h5>          
+                </Row>
+                <Row>
+                    <h5 className="text-justify pr-3"><FontAwesomeIcon icon="cog"/><strong className="text-dark"> Diploma</strong><small> Computer Science and Engineering</small></h5>   
+                </Row>         
         </div> 
     );
 }
