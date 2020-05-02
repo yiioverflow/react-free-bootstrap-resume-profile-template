@@ -53,7 +53,7 @@ function Profile()
                 <p class="text-muted">Learning something new...</p>
             </Row>    
             <Row className="justify-content-center">
-                <p class="text-center">I built this site with 
+            <p class="text-center">I built this site with 
                 <a class="fa fa-github text-primary text-decoration-none" href="https://roopz.club"> Html5</a> and 
                 <a class="fa fa-github text-primary text-decoration-none" href="https://react.roopz.club"> React</a> components and Bootstrap. The full source code can be found in my <a class="fa fa-github text-primary" href="https://github.com/yiioverflow"> Github</a> repo.</p>
             </Row> 
